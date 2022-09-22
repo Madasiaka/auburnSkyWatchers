@@ -1,0 +1,90 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  max-width: 40%;
+  margin: 0 ;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body {
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.25)), url("../img/starsBackground.jpg") ;
+  background-size: cover;
+  height: 115%;
+}
+
+.intro{
+  display: flex;
+  color: aliceblue;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 65px;
+  margin-bottom: 0px;
+  text-shadow: #FC0 5px 0 10px;
+}
+
+h2 {
+  margin-top: 5px;
+  font-size: 35px;
+  text-shadow: #FC0 4px 0 10px;
+}
+
+.datePicker {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+h4{
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: aliceblue;
+  text-shadow: black 3px 0 10px;
+}
+
+button {
+  margin-bottom: 15px;
+}
+
+.facts {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3{
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgba(253, 251, 251, 0.75);
+  color: black;
+  max-width: 33%;
+  height: fit-content;
+}
+
+iframe{
+  min-width: 0px;
+}
+
+.hidden {
+  display: none;
+}
+

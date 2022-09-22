@@ -13,9 +13,11 @@ function getFetch(){
         if( data.media_type === 'image' ){
           document.querySelector('img').src = data.hdurl
           document.querySelector('iframe').classList.add('hidden')
+          document.querySelector('img').classList.remove('hidden')
         }else if(data.media_type === 'video'){
           document.querySelector('iframe').src = data.url
           document.querySelector('iframe').classList.remove('hidden')
+          document.querySelector('img').classList.add('hidden')
         }
        
         document.querySelector('h3').innerText = data.explanation

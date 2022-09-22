@@ -1,4 +1,3 @@
-//Example fetch using pokemonapi.co
 document.querySelector('button').addEventListener('click', getFetch)
 
 function getFetch(){
@@ -13,6 +12,7 @@ function getFetch(){
         console.log(data)
         if( data.media_type === 'image' ){
           document.querySelector('img').src = data.hdurl
+          document.querySelector('iframe').classList.add('hidden')
         }else if(data.media_type === 'video'){
           document.querySelector('iframe').src = data.url
           document.querySelector('iframe').classList.remove('hidden')

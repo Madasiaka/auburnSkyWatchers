@@ -3,7 +3,7 @@ Auburn Sky Watchers is a site that was created for a local astronomy group. The 
 
 **Link to project:** https://auburnskywatchers.netlify.app/
 
-![A colorful site showing a galaxy and telescope](![image](https://user-images.githubusercontent.com/99517890/191667939-96f66d5e-2c51-4f9b-b783-5d6af7e9c18a.png))
+![A colorful site showing a galaxy and telescope](https://user-images.githubusercontent.com/99517890/191667939-96f66d5e-2c51-4f9b-b783-5d6af7e9c18a.png)
 
 ## How It's Made:
 
